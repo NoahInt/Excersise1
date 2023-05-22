@@ -1,0 +1,54 @@
+.full-width {
+    width: 100vw;
+    height: calc(100vw * (9/16));
+}
+
+header {
+    background-color: wheat;
+    padding: 10px;
+}
+
+body {
+    color: black;
+    background-color: hsla(0, 100%, 25%, 1);
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", Arial, sans-serif;
+    font-size: calc(16px + .5vw);
+}
+
+nav {
+    font-weight: bold;
+    color: sienna;
+}
+
+ul li:first-child {
+    font-style: italic;
+    color: bisque;
+}
+
+h2::first-letter {
+    font-weight: bold;
+    color: rgb(17, 16, 1);
+}
+
+#breakfast, #lunch, #dinner {
+    
+    color: darkgoldenrod;
+}
+
+nav a {
+
+    display: inline-block;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
